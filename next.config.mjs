@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {};{
-  basePath: "/react",
+  basePath: "/Mpistisikya",
 output: "export",  // <=== enables static exports
   reactStrictMode: true,
   );
