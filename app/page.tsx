@@ -109,10 +109,26 @@ export default function Home() {
   
     </main>
   
-  );
-   <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/mpistisikya" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
+
+  useEffect(() => {
+    window.Calendly.initInlineWidget({
+      url: 'https://calendly.com/mpistisikya',
+      parentElement: document.getElementById('calendly-inline-widget')
+    });
+  }, [])
+  return (
+    <>
+      <Head>
+        <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+      </Head>
+      <>
+          <div
+            id="calendly-inline-widget"
+            style={{minWidth: 320, height: 700}}
+            data-auto-load="false"
+          >
+          </div>
+      </>
+    );
 }
 
