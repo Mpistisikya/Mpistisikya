@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};{
+const nextConfig = {
   basePath: "/Mpistisikya",
   output: "export",  // <=== enables static exports
   reactStrictMode: true,
