@@ -34,7 +34,8 @@ export default function Home() {
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src= "aboutimg.svg"
           alt="Logo"
-        
+          width={200}
+          height={68}
           priority
         />
       </div>
