@@ -115,8 +115,9 @@ export default function Home() {
 
        <div 
         
-            class="calendly-inline-widget" 
+            className="calendly-inline-widget" 
           data-url="https://calendly.com/mpistisikya" 
+         style={{ minWidth: 320, height: 580 }}
           >
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
        
