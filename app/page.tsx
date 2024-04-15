@@ -45,19 +45,13 @@ export default function Home() {
       </div>
 
 
-        <!-- About Section -->
-    <section id="about" class="section about">
+    <section id="about" className="section about">
 
-      <div class="container">
-
-        <div class="row gy-3">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about-img.svg" alt="" class="img-fluid">
+          <div className="container row gy-3 col-lg-6">
+            <Image src="aboutimg.svg" alt="" class="img-fluid">
           </div>
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="about-content ps-0 ps-lg-3">
+          <div class="container row gy-3 col-lg-6 d-flex flex-column justify-content-center about-content ps-0 ps-lg-3">
               <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
               <p class="fst-italic">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -66,17 +60,17 @@ export default function Home() {
               <ul>
                 <li>
                   <i class="bi bi-diagram-3"></i>
-                  <div>
+                  
                     <h4>Ullamco laboris nisi ut aliquip consequat</h4>
                     <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-                  </div>
+                  
                 </li>
                 <li>
                   <i class="bi bi-fullscreen-exit"></i>
-                  <div>
+                  
                     <h4>Magnam soluta odio exercitationem reprehenderi</h4>
                     <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
-                  </div>
+                  
                 </li>
               </ul>
               <p>
@@ -86,12 +80,10 @@ export default function Home() {
               </p>
             </div>
 
-          </div>
-        </div>
+          
+      
 
-      </div>
-
-    </section><!-- /About Section -->
+    </section>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
