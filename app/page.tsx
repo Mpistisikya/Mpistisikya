@@ -72,6 +72,7 @@ export default function Home() {
               </p>
               <ul>
                 <li>
+                   <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
                      <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src= "next.svg"
@@ -84,6 +85,7 @@ export default function Home() {
                     <h4>Ullamco laboris nisi ut aliquip consequat</h4>
                     <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
                   </>
+                     </div>
                 </li>
                 <li>
                                        <Image
