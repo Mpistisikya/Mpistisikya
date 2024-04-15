@@ -38,15 +38,19 @@ export default function Home() {
           height={136}
           priority
         />
+      </div>
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-15 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
          Mathematics Preparation - SAT, Algebra, Geometry, Trignometry, and others</p>
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-15 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
          Where stars are made!</p>
-      </div>
 
 
     <section id="about" className="section about">
+    <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
 
+    <img src="assets/img/about-img.svg" alt="" class="img-fluid">
+    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+      </div>
      
           
       
