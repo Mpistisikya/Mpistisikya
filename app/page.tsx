@@ -66,13 +66,15 @@ export default function Home() {
               -&gt;
             </span>
           </h3>
-              <p className={`fst-italic m-0 max-w-[30ch] text-sm opacity-50`}>
+              <p className={`fst-italic m-0 text-sm opacity-50`}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua.
               </p>
+            <br>
+            <br>
               <ul>
                 <li>
-                   <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
+                   <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:flex lg:text-left">
                      <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src= "next.svg"
