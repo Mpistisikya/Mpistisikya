@@ -117,7 +117,7 @@ export default function Home() {
         
             class="calendly-inline-widget" 
           data-url="https://calendly.com/mpistisikya" 
-          style="min-width:320px;height:700px;">
+          >
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
        
       
