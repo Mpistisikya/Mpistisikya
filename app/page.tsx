@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/image";
 import { useState, useEffect } from 'react';
 
 export default function Home() {
@@ -15,13 +16,13 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Click here to {" "}
+            Click here to{" "}
             <Image
-              src= {'/ENROLL2.JPG'}
+              src= "vercel.svg"
               alt="Enroll Now"
               className="dark:invert"
-              width={200}
-              height={68}
+              width={100}
+              height={24}
               priority
             />
           </a>
@@ -110,26 +111,6 @@ export default function Home() {
   
     </main>
   
-
-  useEffect(() => {
-    window.Calendly.initInlineWidget({
-      url: 'https://calendly.com/mpistisikya',
-      parentElement: document.getElementById('calendly-inline-widget')
-    });
-  }, [])
-  return (
-    <>
-      <Head>
-        <script src="https://assets.calendly.com/assets/external/widget.js"></script>
-      </Head>
-      <>
-          <div
-            id="calendly-inline-widget"
-            style={{minWidth: 320, height: 700}}
-            data-auto-load="false"
-          >
-          </div>
-      </>
     );
 }
 
