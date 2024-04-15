@@ -72,14 +72,28 @@ export default function Home() {
               </p>
               <ul>
                 <li>
-                  <i className="bi bi-diagram-3"></i>
+                     <Image
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          src= "next.svg"
+          alt="Logo"
+          width={100}
+          height={24}
+          priority
+        />
                   <>
                     <h4>Ullamco laboris nisi ut aliquip consequat</h4>
                     <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
                   </>
                 </li>
                 <li>
-                  <i className="bi bi-fullscreen-exit"></i>
+                                       <Image
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          src= "next.svg"
+          alt="Logo"
+          width={100}
+          height={24}
+          priority
+        />
                   <>
                     <h4>Magnam soluta odio exercitationem reprehenderi</h4>
                     <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
