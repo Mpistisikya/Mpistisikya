@@ -113,12 +113,14 @@ export default function Home() {
 
 
 
-       <></><div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
-        <!-- Calendly inline widget begin -->
-        <div class="calendly-inline-widget" data-url="https://calendly.com/mpistisikya" style="min-width:320px;height:700px;"></div>
+       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left"
+        
+            class="calendly-inline-widget" 
+          data-url="https://calendly.com/mpistisikya" 
+          style="min-width:320px;height:700px;">
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-        <!-- Calendly inline widget end -->
-        </>
+       
+      
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Docs{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -128,7 +130,7 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Find in-depth information about Next.js features and API.
           </p>
-        </a>
+      
 
         
 
