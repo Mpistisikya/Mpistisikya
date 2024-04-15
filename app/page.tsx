@@ -45,17 +45,18 @@ export default function Home() {
          Where stars are made!</p>
 
 
-    <section id="about" className="section about">
-    <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+    
+    <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
 
-    <img src="assets/img/about-img.svg" alt="" class="img-fluid">
-    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+      <img src="assets/img/about-img.svg" alt="" class="img-fluid">
+      <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+         <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
       </div>
      
           
       
 
-    </section>
+  
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
